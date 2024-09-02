@@ -1,50 +1,57 @@
-# React + TypeScript + Vite
+# 🎧 Drum Machine - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a la Drum Machine más genial de la web! 🎶
 
-Currently, two official plugins are available:
+Este proyecto fue inspirado por el curso de [#freeCodeCamp](https://www.freecodecamp.org/espanol/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-drum-machine). 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[#Drum Machine-React.JS]()
 
-## Expanding the ESLint configuration
+# 🚀 Funcionalidad
+¿Te encanta hacer beats? ¡Esta Drum Machine es para ti! Aquí te explico cómo funciona:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+🔷*Toca el ritmo:* Presiona cualquier tecla de tu teclado (las que están asignadas a un sonido) y escucha cómo comienza el beat. Cada tecla está vinculada a un sonido específico, ¡así que experimenta y crea tus propios ritmos!
 
-- Configure the top-level `parserOptions` property like this:
+🔷*Interfaz interactiva:* Cuando presionas una tecla, el botón correspondiente en la interfaz se ilumina, dándote una respuesta visual instantánea.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+🔷*Personaliza tu experiencia:* ¡Esta es solo la versión inicial! En futuras actualizaciones, planeo agregar más sonidos, efectos y opciones de personalización.
+
+
+## 🛠️ Desarrollo
+
+Este proyecto fue desarrollado con:
+
+👉🏻 React: La librería de JavaScript más popular para construir interfaces de usuario.
+
+👉🏻 HTML5 y CSS3: Para estructurar y estilizar la aplicación.
+
+👉🏻 JavaScript: Para agregar toda la lógica y dinamismo que necesitas para hacer música.
+
+## 🖥️ Run Locally
+
+Sigue estos sencillos pasos para poner en marcha la aplicación en tu entorno local:
+
+1. Clona este repositorio: 
+```
+    git clone https://github.com/tuusuario/drum-machine.git
+```
+2. Instala las dependencias necesarias: 
+```
+    npm install
+```
+3. Incia la aplicación: 
+```
+    npm start
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Ahora puedes abrir tu navegador y disfrutar de tu Drum Machine en `http://localhost:3000.`
+## Agradecimientos ✨ 
+Un gran agradecimiento a [#freeCodeCamp](https://www.freecodecamp.org/espanol/learn/front-end-development-libraries/) por inspirar este proyecto y proporcionarme las herramientas necesarias para aprender React y mucho más. ¡Gracias por hacer la educación accesible para todos!
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 📸 Screenshots
+
+![Captura de pantalla 2024-08-09 113227](https://github.com/user-attachments/assets/f6aa9992-ecc3-4e4b-a870-9047d54c69be)
+
+
+
+
