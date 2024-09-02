@@ -1,57 +1,60 @@
-# 🎧 Drum Machine - React
 
-¡Bienvenido a la Drum Machine más genial de la web! 🎶
+# ✨ Random Quote Machine
 
-Este proyecto fue inspirado por el curso de [#freeCodeCamp](https://www.freecodecamp.org/espanol/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-drum-machine). 
+¡Bienvenido a la Random Quote Machine! 🎉
 
-[#Drum Machine-React.JS]()
+Puedes ver la aplicación en acción aquí: [Random Quote Machine](https://zingy-cannoli-07d581.netlify.app/) 
 
-# 🚀 Funcionalidad
-¿Te encanta hacer beats? ¡Esta Drum Machine es para ti! Aquí te explico cómo funciona:
-
-🔷*Toca el ritmo:* Presiona cualquier tecla de tu teclado (las que están asignadas a un sonido) y escucha cómo comienza el beat. Cada tecla está vinculada a un sonido específico, ¡así que experimenta y crea tus propios ritmos!
-
-🔷*Interfaz interactiva:* Cuando presionas una tecla, el botón correspondiente en la interfaz se ilumina, dándote una respuesta visual instantánea.
-
-🔷*Personaliza tu experiencia:* ¡Esta es solo la versión inicial! En futuras actualizaciones, planeo agregar más sonidos, efectos y opciones de personalización.
+Esta aplicación está hecha con React.js y genera una cita aleatoria cada vez que haces clic en un botón. Es perfecta para inspirarte con nuevas frases en cada visita. 🌟
 
 
-## 🛠️ Desarrollo
+## 🚀 Características
+🔸Citas Aleatorias: Genera una cita nueva con solo un clic.
 
-Este proyecto fue desarrollado con:
+🔸Interfaz Limpia: Diseñada para ser sencilla y fácil de usar.
 
-👉🏻 React: La librería de JavaScript más popular para construir interfaces de usuario.
+🔸Inspiración Instantánea: Obtén una dosis de motivación o sabiduría al instante.
 
-👉🏻 HTML5 y CSS3: Para estructurar y estilizar la aplicación.
+## 🛠️ Tecnologías Utilizadas
+👉🏻 React.js: El motor que impulsa la interfaz dinámica.
 
-👉🏻 JavaScript: Para agregar toda la lógica y dinamismo que necesitas para hacer música.
+👉🏻 JavaScript: El lenguaje que maneja la lógica de la aplicación.
 
+👉🏻 CSS: Estilos que dan vida y personalidad a la aplicación.
+
+👉🏻 HTML: La estructura fundamental de la aplicación.
 ## 🖥️ Run Locally
 
 Sigue estos sencillos pasos para poner en marcha la aplicación en tu entorno local:
 
 1. Clona este repositorio: 
 ```
-    git clone https://github.com/tuusuario/drum-machine.git
+    git clone https://github.com/tuusuario/random-quote.machine.git
 ```
-2. Instala las dependencias necesarias: 
+2. Navega al directorio del proyecto:
+```
+    cd
+```
+3. Instala las dependencias
 ```
     npm install
+
 ```
-3. Incia la aplicación: 
+4. Ejecuta la aplicación con Vite:
 ```
-    npm start
+    npm run dev
 ```
 
-Ahora puedes abrir tu navegador y disfrutar de tu Drum Machine en `http://localhost:3000.`
-## Agradecimientos ✨ 
-Un gran agradecimiento a [#freeCodeCamp](https://www.freecodecamp.org/espanol/learn/front-end-development-libraries/) por inspirar este proyecto y proporcionarme las herramientas necesarias para aprender React y mucho más. ¡Gracias por hacer la educación accesible para todos!
+La aplicación se abrirá en tu navegador en `http://localhost:5173`. 😉👌🏻
+## 🙏 Agradecimientos
+Este proyecto fue inspirado por el curso de [React.js de freeCodeCamp.](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine) ¡Gracias por proporcionar recursos educativos increíbles y gratuitos! 💚
 
 
 ## 📸 Screenshots
 
-![Captura de pantalla 2024-08-09 113227](https://github.com/user-attachments/assets/f6aa9992-ecc3-4e4b-a870-9047d54c69be)
+![Captura de pantalla 2024-09-02 111449](https://github.com/user-attachments/assets/bb90ba67-499b-4f63-84e1-15d6d85662c7)
 
+![Captura de pantalla 2024-09-02 111511](https://github.com/user-attachments/assets/6f03d812-9a8a-4ab9-991e-02393edc5142)
 
 
 
